@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/images/coffeCoverImage.jpeg");
+  background-image: url("./images/coffeCoverImage.jpeg");
   background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
