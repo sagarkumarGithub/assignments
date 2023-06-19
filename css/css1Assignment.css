@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("./images/coffeCoverImage.jpeg");
+  background-image: url("https://images.pexels.com/photos/4109743/pexels-photo-4109743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
@@ -94,4 +94,3 @@ hr {
   margin-top: 3rem;
   border: 3px solid brown;
 }
-
