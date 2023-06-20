@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.colorMarker {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.redColor1 {
+  height: 2.5rem;
+  width: 6rem;
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 0, 0.5),
+    rgba(255, 0, 0, 1)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+.redColor2 {
+  height: 2.5rem;
+  width: 1rem;
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0.6),
+    rgba(255, 0, 0, 0.2),
+    rgba(255, 0, 0, 0.6)
+  );
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  box-shadow: 0px 0px 30px black;
+}
+
+.redColor3 {
+  height: 2.5rem;
+  width: 14rem;
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0.6),
+    rgba(255, 0, 0, 0.2),
+    rgba(255, 0, 0, 0.6)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+.redColor4 {
+  height: 2.5rem;
+  width: 1rem;
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 0, 0.5),
+    rgba(255, 0, 0, 1)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+/* green marker */
+
+.greenColor1 {
+  height: 2.5rem;
+  width: 6rem;
+  background-image: linear-gradient(
+    rgb(60, 206, 2, 1),
+    rgb(72, 255, 0, 0.5),
+    rgb(72, 255, 0, 1)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+.greenColor2 {
+  height: 2.5rem;
+  width: 1rem;
+  background-image: linear-gradient(
+    rgb(60, 206, 2, 0.6),
+    rgb(72, 255, 0, 0.2),
+    rgb(72, 255, 0, 0.6)
+  );
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  box-shadow: 0px 0px 30px black;
+}
+
+.greenColor3 {
+  height: 2.5rem;
+  width: 14rem;
+  background-image: linear-gradient(
+    rgb(60, 206, 2, 0.6),
+    rgb(72, 255, 0, 0.2),
+    rgb(72, 255, 0, 0.6)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+.greenColor4 {
+  height: 2.5rem;
+  width: 1rem;
+  background-image: linear-gradient(
+    rgb(60, 206, 2, 1),
+    rgb(72, 255, 0, 0.5),
+    rgb(72, 255, 0, 1)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+/* blue marker */
+
+.blueColor1 {
+  height: 2.5rem;
+  width: 6rem;
+  background-image: linear-gradient(
+    rgba(31, 4, 150, 1),
+    rgba(31, 4, 150, 0.5),
+    rgba(31, 4, 150, 1)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+.blueColor2 {
+  height: 2.5rem;
+  width: 1rem;
+  background-image: linear-gradient(
+    rgba(31, 4, 150, 0.6),
+    rgba(31, 4, 150, 0.2),
+    rgba(31, 4, 150, 0.6)
+  );
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  box-shadow: 0px 0px 30px black;
+}
+
+.blueColor3 {
+  height: 2.5rem;
+  width: 14rem;
+  background-image: linear-gradient(
+    rgba(31, 4, 150, 0.6),
+    rgba(31, 4, 150, 0.2),
+    rgba(31, 4, 150, 0.6)
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+.blueColor4 {
+  height: 2.5rem;
+  width: 1rem;
+  background-image: linear-gradient(
+    rgba(31, 4, 150, 1),
+    rgba(31, 4, 150, 0.5),
+    rgba(31, 4, 150, 1)
+  );
+  box-shadow: 0px 0px 30px black;
+}
