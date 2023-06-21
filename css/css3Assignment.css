@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  min-height: 50vh;
+  width: 30%;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Merriweather", serif;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.row p {
+  font-size: 1.6rem;
+}
+
+.row h3 {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.row h1{
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+
+span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 0.8rem;
+}
+
+.heading h1 {
+  font-family: "Merriweather", serif;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.footer p {
+  font-size: 1.5rem;
+}
+
+.hr1 {
+  margin: 0.5rem 0;
+  border: 5px solid black;
+}
+
+.hr2 {
+  margin: 0.5rem 0;
+  border: 3px solid black;
+}
+
+hr {
+  margin: 0.2rem 0;
+  border: 0.5px solid rgb(96, 94, 94);
+}
+
+.last h3 {
+  text-align: end;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
