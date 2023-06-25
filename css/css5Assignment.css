@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: black;
+  color: white;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 6rem;
+}
+
+.logo h1 {
+  font-size: 3.2rem;
+}
+
+.links ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+.shape {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  justify-content: center;
+  margin-top: 3.6rem;
+  padding: 2.4rem;
+}
+
+.oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 40%;
+  background: linear-gradient(45deg, black, red, black);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.oval h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.shape p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.pizzaImages {
+  margin: 2rem;
+}
+
+.pizzaCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pizzaCard img {
+  border-radius: 3.2rem;
+}
+
+.pizzaCard h2 {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.pizzaDesc p {
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  text-align: center;
+}
+
+.friesCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.friesCards img {
+  border-radius: 12px;
+  background-position: center;
+}
+
+.friesCards h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: rgb(31, 11, 11);;
+  color: white;
+  padding: 2rem 4rem;
+  margin-top: 3rem;
+}
+
+.description h3 {
+  font-size: 1.6rem;
+}
+
+.description h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.description {
+  margin: 3rem 0;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.socialIcons i{
+    font-size: 2.4rem;
+}
