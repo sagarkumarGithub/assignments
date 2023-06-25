@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 2.8rem;
+  text-align: center;
+}
+
+nav h1 {
+  font-size: 3.2rem;
+}
+
+.image-gallery {
+  max-width: 1300px;
+  margin: 3rem auto;
+  min-height: 100vh;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.card {
+  height: 35rem;
+  width: 35rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
