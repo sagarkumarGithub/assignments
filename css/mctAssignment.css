@@ -414,6 +414,7 @@ hr {
   color: white;
   margin: 0px auto;
   border-radius: 3rem;
+  margin-top: 7rem;
 }
 
 .banner-text {
@@ -555,6 +556,11 @@ hr {
     font-size: 3.6rem;
   }
 
+  /* partners */
+  .partners {
+    margin: 1.8rem;
+  }
+
   /* testimonial image */
   .testimonial-image {
     display: none;
@@ -565,9 +571,6 @@ hr {
   }
 
   /* review and ratting */
-  .review-ratting {
-    margin: 1.8rem;
-  }
   .ratting {
     flex-direction: column;
     gap: 2.8rem;
@@ -576,7 +579,6 @@ hr {
   /* contact us */
   .contact-us {
     flex-direction: column;
-    margin: 1.8rem;
   }
   .contact-image {
     width: 90%;
