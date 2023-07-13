@@ -550,15 +550,24 @@ hr {
     font-size: 1.8rem;
   }
 
+  /* hero */
+  .hero h1 {
+    font-size: 3.6rem;
+  }
+
   /* testimonial image */
   .testimonial-image {
     display: none;
   }
   .testimonial {
     width: 100%;
+    margin: 1.8rem;
   }
 
   /* review and ratting */
+  .review-ratting {
+    margin: 1.8rem;
+  }
   .ratting {
     flex-direction: column;
     gap: 2.8rem;
@@ -567,6 +576,7 @@ hr {
   /* contact us */
   .contact-us {
     flex-direction: column;
+    margin: 1.8rem;
   }
   .contact-image {
     width: 90%;
