@@ -351,6 +351,32 @@ hr {
   gap: 12rem;
 }
 
+.comments {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.comments-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.comments-col {
+  padding: 1.8rem 2.4rem;
+  background-color: #edf2f4;
+  border-radius: 2rem;
+}
+
+.comments-col p {
+  font-size: 1.8rem;
+}
+
 /* contact us */
 .contact-us {
   margin-top: 7rem;
@@ -574,6 +600,10 @@ hr {
   .ratting {
     flex-direction: column;
     gap: 2.8rem;
+  }
+
+  .comments {
+    display: none;
   }
 
   /* contact us */
