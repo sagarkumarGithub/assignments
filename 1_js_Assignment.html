@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .color {
+      color: red;
+    }
+    .background-color {
+      background-color: skyblue;
+    }
+    .padding {
+      padding: 32px;
+    }
+    .font-size {
+      font-size: 42px;
+    }
+    .font-weight {
+      font-weight: 200;
+    }
+  </style>
+  <body>
+    <h1>Dom Manipulation Assignment</h1>
+    <select id="selectEle" onselect="changeStyle">
+      <option value="color">color</option>
+      <option value="background-color">background-color</option>
+      <option value="padding">padding</option>
+      <option value="font-size">font-size</option>
+      <option value="font-weight">font-weight</option>
+    </select>
+    <div>
+      <h1 id="h1Ele">I am paragraph</h1>
+    </div>
+    <script>
+      selectEle.onchange = function () {
+        console.log(this.value);
+        h1Ele.classList.add(this.value);
+      };
+    </script>
+  </body>
+</html>
